@@ -1,5 +1,8 @@
 import time
-os.system("shutdown /s /t 1")
+import requests
+import shutil
+from zipfile import ZipFile
+import os
 
 for i in range(10):
     print('hello')
